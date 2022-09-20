@@ -2,23 +2,11 @@ package gr11review.part1;
 import java.io.*;
 import java.text.DecimalFormat;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-// NEEDS FIXING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
->>>>>>> ba44e09120c4800577aaaaca348f4869aa9cf68d
-=======
-// NEEDS FIXING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
->>>>>>> ba44e09120c4800577aaaaca348f4869aa9cf68d
 public class Review4{
 	public static void main(String[] args) throws IOException{
         DecimalFormat df = new DecimalFormat("0.00");
 		BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         int intItemNum;
         double dblsubTotal = 0;
 
@@ -26,20 +14,6 @@ public class Review4{
         intItemNum = Integer.parseInt(keyboard.readLine());
         
         for(int i = 0; i < intItemNum; i++){
-=======
-=======
->>>>>>> ba44e09120c4800577aaaaca348f4869aa9cf68d
-        double dblItemNum;
-        double dblsubTotal = 0;
-
-		System.out.print("How many items do you want to buy? ");
-        dblItemNum = Double.parseDouble(keyboard.readLine());
-        
-        for(int i = 0; i < dblItemNum; i++){
-<<<<<<< HEAD
->>>>>>> ba44e09120c4800577aaaaca348f4869aa9cf68d
-=======
->>>>>>> ba44e09120c4800577aaaaca348f4869aa9cf68d
             System.out.print("Enter the price for item " + (i + 1) + ": ");
             dblsubTotal += Double.parseDouble(keyboard.readLine());
         }
@@ -47,5 +21,5 @@ public class Review4{
         System.out.println("Subtotal: $" + df.format(dblsubTotal));
         System.out.println("Tax: $" + df.format(dblsubTotal * 0.13));
         System.out.println("Total: $" + df.format(dblsubTotal * 1.13));
-	}
+    }
 }

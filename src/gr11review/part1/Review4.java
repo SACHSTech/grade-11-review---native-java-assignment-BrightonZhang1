@@ -3,6 +3,11 @@ import java.io.*;
 import java.text.DecimalFormat;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+// NEEDS FIXING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+>>>>>>> ba44e09120c4800577aaaaca348f4869aa9cf68d
 =======
 // NEEDS FIXING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -13,6 +18,7 @@ public class Review4{
 		BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         int intItemNum;
         double dblsubTotal = 0;
 
@@ -21,6 +27,8 @@ public class Review4{
         
         for(int i = 0; i < intItemNum; i++){
 =======
+=======
+>>>>>>> ba44e09120c4800577aaaaca348f4869aa9cf68d
         double dblItemNum;
         double dblsubTotal = 0;
 
@@ -28,6 +36,9 @@ public class Review4{
         dblItemNum = Double.parseDouble(keyboard.readLine());
         
         for(int i = 0; i < dblItemNum; i++){
+<<<<<<< HEAD
+>>>>>>> ba44e09120c4800577aaaaca348f4869aa9cf68d
+=======
 >>>>>>> ba44e09120c4800577aaaaca348f4869aa9cf68d
             System.out.print("Enter the price for item " + (i + 1) + ": ");
             dblsubTotal += Double.parseDouble(keyboard.readLine());

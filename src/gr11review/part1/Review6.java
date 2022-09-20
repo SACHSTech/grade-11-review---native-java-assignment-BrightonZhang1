@@ -20,12 +20,4 @@ public class Review6{
         System.out.println("Tax: $" + df.format(dblsubTotal * 0.13));
         System.out.println("Total: $" + df.format(dblsubTotal * 1.13));
 	}
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> ba44e09120c4800577aaaaca348f4869aa9cf68d
-=======
-}
->>>>>>> ba44e09120c4800577aaaaca348f4869aa9cf68d

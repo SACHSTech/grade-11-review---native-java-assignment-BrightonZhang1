@@ -3,14 +3,14 @@ import java.io.*;
 import java.text.DecimalFormat;
 
 public class Review4{
-	public static void main(String[] args) throws IOException{
+    public static void main(String[] args) throws IOException{
         DecimalFormat df = new DecimalFormat("0.00");
-		BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
+	BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
 
         int intItemNum;
         double dblsubTotal = 0;
 
-		System.out.print("How many items do you want to buy? ");
+	System.out.print("How many items do you want to buy? ");
         intItemNum = Integer.parseInt(keyboard.readLine());
         
         for(int i = 0; i < intItemNum; i++){

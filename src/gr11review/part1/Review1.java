@@ -14,8 +14,8 @@ public class Review1{
 		System.out.print("Enter the month number: ");
 		intMonthNum = Integer.parseInt(keyboard.readLine());
 
-        System.out.print("Enter the day number: ");
-        intDayNum = Integer.parseInt(keyboard.readLine());
+       		System.out.print("Enter the day number: ");
+        	intDayNum = Integer.parseInt(keyboard.readLine());
 
 		// if statements to calculate specific month days
 		int intTotalDays = intDayNum;

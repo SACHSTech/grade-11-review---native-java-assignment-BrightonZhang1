@@ -3,13 +3,17 @@ import java.io.*;
 
 public class Review2{
 	public static void main(String[] args) throws IOException{
+		// buffered reader object creation
 		BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
+
+		// displays options for user
 		System.out.println("0 - print a joke about your hair");
 		System.out.println("1 - print a joke about your feet");
 		System.out.println("2 - print a joke about your clothes");
 		System.out.println("3 - print a joke about your teacher");
 		System.out.print("Choose a menu option: ");
 
+		// switch case structure used to output jokes
 		switch(Integer.parseInt(keyboard.readLine())){
 		    case 0:
 			System.out.println("Why do bees have sticky hair?\nThey always use honeycombs.");
@@ -30,6 +34,5 @@ public class Review2{
 		    default:
 			System.out.println("Invalid menu option");
 		}
-
 	}
 }

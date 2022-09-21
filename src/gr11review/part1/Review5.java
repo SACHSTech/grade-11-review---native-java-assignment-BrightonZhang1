@@ -3,14 +3,17 @@ import java.io.*;
 
 public class Review5{
 	public static void main(String[] args) throws IOException{
+		// buffered reader object creation
 		BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
 
+		// variable declarations
 		int intYearlyAmount;
 		double dblCompound;
 		int intTarget;
 		double dblMoney = 0;
 		int intYear = 0;
 
+		// user input
 		System.out.print("Enter the yearly invested amount: ");
 		intYearlyAmount = Integer.parseInt(keyboard.readLine());
 
@@ -20,7 +23,9 @@ public class Review5{
 		System.out.print("Enter the target amount: ");
 		intTarget = Integer.parseInt(keyboard.readLine());
 
+		// if statement to avoid crashing program
 		if(intTarget != 0){
+		    // while loop used to calculate # of years
 		    while(dblMoney <= intTarget){
 			dblMoney += intYearlyAmount;
 
@@ -32,10 +37,12 @@ public class Review5{
 		    }
 		}
 
+		// if statement to subtract one year when dblCompound = 0
 		if(dblCompound == 0 && dblMoney != 0 && intTarget != 0){
 		    intYear--;
 		}
 
+		// user output
 		System.out.println("The target amount will be earned in " + intYear + " years.");
 	}
 }

@@ -6,7 +6,7 @@ public class Review4{
 	public static void main(String[] args) throws IOException{
         // decimal format and buffered reader objects created
         DecimalFormat df = new DecimalFormat("0.00");
-		BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
+	    BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
 
         // variable declaration
         int intItemNum;
